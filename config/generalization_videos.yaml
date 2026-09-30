@@ -1,0 +1,33 @@
+# Separately downloaded held-out footage, never copied into the training dataset.
+# Public YouTube sources and verified alliance lineups; downloads stay outside the repo.
+videos:
+  - name: 2025_cmptx_einstein_1
+    event: 2025 FIRST Championship, Einstein Match 1 (Reefscape)
+    url: https://www.youtube.com/watch?v=TuWMGQ74kNI
+    publisher: FIRST Robotics Competition
+    rights: "Copyright (c) 2025 FIRST Robotics Competition; no reuse license stated. For local evaluation only; do not redistribute."
+    roster_source: https://www.thebluealliance.com/match/2025cmptx_sf1m1
+    first_match_results: https://frc-events.firstinspires.org/2025/CMPTX/playoffs/1
+    red_teams: [8044, 3940, 2481]
+    blue_teams: [2910, 1323, 4272]
+    training_overlap: none expected; checked source image filenames for event and video identifiers
+  - name: 2025_cmptx_einstein_2_1080p
+    event: 2025 FIRST Championship, Einstein Match 2 (Reefscape)
+    url: https://www.youtube.com/watch?v=4axCDfxbMaw
+    publisher: FIRST Robotics Competition
+    rights: "Copyright (c) 2025 FIRST Robotics Competition; no reuse license stated. For local evaluation only; do not redistribute."
+    roster_source: https://www.thebluealliance.com/match/2025cmptx_sf2m1
+    first_match_results: https://frc-events.firstinspires.org/2025/CMPTX/playoffs/2
+    red_teams: [180, 16, 4946]
+    blue_teams: [2767, 2877, 1768]
+    training_overlap: none expected; held-out event match
+  - name: 2025_cmptx_einstein_final_2_1080p
+    event: 2025 FIRST Championship, Einstein Final 2 (Reefscape)
+    url: https://www.youtube.com/watch?v=gjGyE5Vev4A
+    publisher: FIRST Robotics Competition
+    rights: "Copyright (c) 2025 FIRST Robotics Competition; no reuse license stated. For local evaluation only; do not redistribute."
+    roster_source: https://www.thebluealliance.com/match/2025cmptx_f1m2
+    first_match_results: https://frc-events.firstinspires.org/2025/CMPTX/playoffs/15
+    red_teams: [2073, 4414, 1690]
+    blue_teams: [2910, 1323, 4272]
+    training_overlap: none expected; held-out event match

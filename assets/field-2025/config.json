@@ -1,0 +1,32 @@
+{
+  "name": "2025 Field (Welded)",
+  "locales": {
+    "en-US": "2025 Field (Welded)",
+    "es-419": "Campo 2025 (soldado)",
+    "fr": "Terrain 2025 (soudé)",
+    "nl": "Veld 2025 (gelast)",
+    "pt-BR": "Campo 2025 (soldado)",
+    "ro": "Teren 2025 (sudat)",
+    "tr": "2025 Sahası (Kaynaklı)",
+    "ru": "Поле 2025 (сварное)",
+    "kk": "2025 алаңы (дәнекерленген)",
+    "he": "מגרש 2025 (מרותך)",
+    "ar": "ملعب 2025 (ملحوم)",
+    "hi": "2025 फील्ड (वेल्डेड)",
+    "zh-CN": "2025 场地 (焊接)",
+    "zh-TW": "2025 場地 (焊接)"
+  },
+  "isFTC": false,
+  "coordinateSystem": "wall-blue",
+  "sourceUrl": "https://www.chiefdelphi.com/t/4k-field-image-2025-reefscape/478797",
+  "topLeft": [
+    421,
+    91
+  ],
+  "bottomRight": [
+    3352,
+    1437
+  ],
+  "widthInches": 690.875,
+  "heightInches": 317
+}

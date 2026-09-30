@@ -1,0 +1,1 @@
+"""FRC robot detection pipeline."""

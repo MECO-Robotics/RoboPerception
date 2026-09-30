@@ -1,0 +1,9 @@
+ultralytics>=8.4.0
+lap>=0.5.12
+streamlit>=1.40
+opencv-python>=4.10,<6
+imageio-ffmpeg>=0.5
+PyYAML>=6.0
+requests>=2.32
+yt-dlp>=2025.1
+rapidocr_onnxruntime>=1.4.4,<2

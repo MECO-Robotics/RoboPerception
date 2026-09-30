@@ -1,0 +1,13 @@
+model: yolo26n.pt
+data: /home/brian/Projects/RoboPerception-data/datasets/frc_robot/data.yaml
+project: /home/brian/Projects/RoboPerception-data/runs
+name: yolo26n
+imgsz: 640
+epochs: 20
+batch: 24
+workers: 4
+device: 0
+seed: 42
+patience: 8
+amp: false # conservative for older gfx900; can be enabled after a stable preflight
+exist_ok: true

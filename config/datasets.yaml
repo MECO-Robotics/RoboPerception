@@ -1,0 +1,32 @@
+# Public datasets with source and license provenance.
+sources:
+  - name: frc-robot-detection-github
+    type: github_sparse
+    repository: https://github.com/Bnenne/RobotDetection.git
+    ref: main
+    revision: 6e5ac58bd0ebc11e5a3697151ea6aef55885660e
+    subdirectory: RobotDetectionLabels
+    license: CC BY-NC-SA 4.0
+    url: https://universe.roboflow.com/bnenne/jerrywu_frc114_robot_v2-przxh-99ob2/dataset/1
+    description: "3,250 FRC robot images with YOLO labels; source export labels robots as a single class. Noncommercial/share-alike terms."
+    enabled: true
+  - name: frc-robots-2026
+    type: roboflow
+    workspace: idk-ul6l8
+    project: 2026-frc-robots
+    version: 3
+    license: CC BY 4.0
+    url: https://universe.roboflow.com/idk-ul6l8/2026-frc-robots
+    description: "FRC robot images; project states it combines 2026 simulation and 2017 Steamworks game imagery. Other labels are collapsed/ignored."
+    format: yolov8
+    enabled: true
+  - name: frc-robot-detection-mit
+    type: roboflow
+    workspace: frc-robot-tracking
+    project: frc-robot-detection-x8com
+    version: 1
+    license: MIT
+    url: https://universe.roboflow.com/frc-robot-tracking/frc-robot-detection-x8com
+    description: "Small red-bot/blue-bot dataset; optional supplemental source."
+    format: yolov8
+    enabled: false
